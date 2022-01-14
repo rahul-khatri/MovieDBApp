@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MovieDBApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MovieDBApp
+  pod 'Alamofire', '~> 4.8.2’
+  pod 'SDWebImage'
+
+
+  target 'MovieDBAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MovieDBAppUITests' do
+    # Pods for testing
+  end
+
+end
